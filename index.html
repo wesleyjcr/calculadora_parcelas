@@ -29,7 +29,7 @@
           </div>
           <div>
             <hr v-if="liquido">
-            <span id="valor">{{this.liquido}}</span>
+            <span id="valor"><strong>{{this.liquido}}</strong></span>
           </div>
           
         </div>
@@ -78,19 +78,17 @@
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
           text-align: center;
-          color: #2c3e50;
-          margin-top: 60px;
+          color: #2c3e50;          
         }
 
         h3 {
-          margin: 40px 0 0;
+          margin: 30px 0 0;
         }
 
         input {
-          margin-bottom: 15px;
-          padding: 10px;
-          font-size: 20px;
-          height: 30px;
+          padding: 5px;
+          font-size: 15px;
+          height: 20px;
           border: 1px solid #302e2e;
           border-radius: 10px;
           color: #302e2e;
@@ -100,7 +98,7 @@
           margin-bottom: 15px;
           padding: 10px;
           height: 50px;
-          width: 230px;
+          width: 150px;
           border: 1px solid #302e2e;
           border-radius: 15px;
           font-size: 15px;
@@ -111,8 +109,8 @@
 
         span {
           margin-top: 15px;
-          font-size: 30px;
-          color: #302e2e;
+          font-size: 20px;
+          color: #110f0f;
         }
 
         label {
@@ -120,7 +118,7 @@
         }
         
         #resultado{
-          margin-top: 30px;
+          margin-top: 10px;
           padding-right: 120px;
           display: flex;
           flex-direction: column;
